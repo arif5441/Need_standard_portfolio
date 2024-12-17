@@ -1,4 +1,6 @@
-<template>
+@extends('frontend.master')
+
+@section('content')
     <!-- Ecom NSL Start -->
     <div class="container-fluid about py-5">
         <div class="container py-5">
@@ -39,11 +41,11 @@
                 </div>
                 <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
                     <div class="bg-primary rounded position-relative overflow-hidden">
-                        <img src="/images/ecom-nsl-side-image.png" class="img-fluid rounded w-100" alt="">
+                        <img src="{{ asset('/') }}frontend-assets/images/ecom-nsl-side-image.png" class="img-fluid rounded w-100" alt="">
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- Ecom NSL End -->
-</template>
+@endsection

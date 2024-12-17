@@ -2,14 +2,12 @@
     "use strict";
 
     // Spinner
-    var spinner = function () {
-        setTimeout(function () {
-            if ($('#spinner').length > 0) {
-                $('#spinner').removeClass('show');
-            }
-        }, 1);
-    };
-    // spinner(0);
+    setTimeout(function () {
+        if ($('#spinner').length > 0) {
+            $('#spinner').removeClass('show');
+        }
+    }, 300); // Wait for 500ms to ensure the page has time to load.
+    
     
     
     // Initiate the wowjs
@@ -26,28 +24,31 @@
 
 
     // Sticky Navbar with Scroll Direction Detection
-    let lastScrollTop = 0;
-
-    $(window).scroll(function () {
-        let currentScrollTop = $(this).scrollTop();
-    
-        // Only add sticky navbar if we are scrolled more than 45px
-        if (currentScrollTop > 45) {
-            if (currentScrollTop > lastScrollTop) {
-                // Scrolling down - hide sticky navbar (remove 'sticky-top')
-                $('.navbar').removeClass('sticky-top shadow-sm');
-            } else {
-                // Scrolling up - show sticky navbar (add 'sticky-top')
-                $('.navbar').addClass('sticky-top shadow-sm');
-            }
+       // Sticky Navbar
+       $(window).scroll(function () {
+        if ($(this).scrollTop() > 45) {
+            $('.navbar').addClass('sticky-top shadow-sm');
         } else {
-            // When scroll is less than or equal to 45px (at the top), hide the navbar
             $('.navbar').removeClass('sticky-top shadow-sm');
         }
-    
-        // Update last scroll position
-        lastScrollTop = currentScrollTop;
     });
+    // let lastScrollTop = 0;
+
+    // $(window).scroll(function () {
+    //     let currentScrollTop = $(this).scrollTop();
+    
+    //     if (currentScrollTop > 45) {
+    //         if (currentScrollTop > lastScrollTop) {
+    //             $('.navbar').removeClass('sticky-top shadow-sm');
+    //         } else {
+    //             $('.navbar').addClass('sticky-top shadow-sm');
+    //         }
+    //     } else {
+    //         $('.navbar').removeClass('sticky-top shadow-sm');
+    //     }
+    
+    //     lastScrollTop = currentScrollTop;
+    // });
 
 
 

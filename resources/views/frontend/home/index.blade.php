@@ -239,540 +239,529 @@
   </div>
   <!--  About part end  -->
 
-
-
-   <!-- Features Start -->
-   <div class="container-fluid service pb-5 py-5">
-    <div class="container-fluid service pb-5">
-   <div class="container pb-5">
-       <div class="mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" >
-           <h4 class="text-center text-primary">Our Core Features</h4>
-           <h1 class="text-center mb-4">Innovating to Meet Your Needs</h1>
-           <p class="mb-0 text-left">
-               Explore our diverse services, designed to meet your unique needs with innovative, personalized solutions.
-                From seamless e-commerce experiences and advanced software development to reliable export-import 
-                services and fresh agricultural products, Need Standard Ltd. is committed to quality, efficiency, 
-                and customer satisfaction, redefining industry standards and driving sustainable growth globally.
-           </p>
-       </div>
-       <div class="row g-4">
-           <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
-               <div class="service-item">
-                   <div class="service-img">
-                       <img src="{{ asset('/') }}frontend-assets/images/ma.png" class="img-fluid rounded-top w-100" alt="Image">
-                   </div>
-                   <div class="rounded-bottom p-4">
-                       <a href="/trade" class="h4 d-inline-block mb-4">M.A Trade Corporation</a>
-                       <p class="mb-4">M.A Trade Corporation is a leading export and...
-                       </p>
-                       <a href="/trade" class="btn btn-primary rounded-pill py-2 px-4">Learn More</a>
-                   </div>
-               </div>
-           </div>
-           <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.4s">
-               <div class="service-item">
-                   <div class="service-img">
-                       <img src="{{ asset('/') }}frontend-assets/images/ecom-nsl.jpg" class="img-fluid rounded-top w-100" alt="Image">
-                   </div>
-                   <div class="rounded-bottom p-4">
-                       <a href="/ecom-nsl" class="h4 d-inline-block mb-4">Ecom NSL</a>
-                       <p class="mb-4">Ecom NSL is a leading e-commerce platform specializing...
-                       </p>
-                       <a href="/ecom-nsl" class="btn btn-primary rounded-pill py-2 px-4">Learn More</a>
-                   </div>
-               </div>
-           </div>
-           <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.6s">
-               <div class="service-item">
-                   <div class="service-img">
-                       <img src="{{ asset('/') }}frontend-assets/images/ai-1.png" class="img-fluid rounded-top w-100" alt="Image">
-                   </div>
-                   <div class="rounded-bottom p-4">
-                       <a href="/soft" class="h4 d-inline-block mb-4">Shohoz Soft</a>
-                       <p class="mb-4">Shohoz Soft is a promising new IT firm dedicated to providing..
-                       </p>
-                       <a href="/soft" class="btn btn-primary rounded-pill py-2 px-4">Learn More</a>
-                   </div>
-               </div>
-           </div>
-           <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
-               <div class="service-item">
-                   <div class="service-img">
-                       <img src="{{ asset('/') }}frontend-assets/images/sodai-1.png" class="img-fluid rounded-top w-100" style="height: 200px;" alt="Image">
-                   </div>
-                   <div class="rounded-bottom p-4">
-                       <a href="/sodai" class="h4 d-inline-block mb-4">Shohoz Sodai</a>
-                       <p class="mb-4">ShohozSodai is an innovative online-based grocery store..
-                       </p>
-                       <a href="/sodai" class="btn btn-primary rounded-pill py-2 px-4">Learn More</a>
-                   </div>
-               </div>
-           </div>
-           <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.4s">
-               <div class="service-item">
-                   <div class="service-img">
-                       <img src="{{ asset('/') }}frontend-assets/images/needx.png" class="img-fluid rounded-top w-100" alt="Image">
-                   </div>
-                   <div class="rounded-bottom p-4">
-                       <a href="/needx" class="h4 d-inline-block mb-4">Needx Courier</a>
-                       <p class="mb-4">eedx Courier is a dynamic courier and logistics company ...
-                       </p>
-                       <a href="/needx" class="btn btn-primary rounded-pill py-2 px-4">Learn More</a>
-                   </div>
-               </div>
-           </div>
-           <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.6s">
-               <div class="service-item">
-                   <div class="service-img">
-                       <img src="{{ asset('/') }}frontend-assets/images/dairy-firm-thumbnail.png" class="img-fluid rounded-top w-100" alt="Image" style="height: 180px;">
-                   </div>
-                   <div class="rounded-bottom p-4">
-                       <a href="/fram" class="h4 d-inline-block mb-4">Need Agro Complex</a>
-                       <p class="mb-4">M.A Dairy and Poultry Farm is a distinctive farm dedicated to...
-                       </p>
-                       <a href="/needx" class="btn btn-primary rounded-pill py-2 px-4">Learn More</a>
-                   </div>
-               </div>
-           </div>
-
-
-           <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.6s">
-               <div class="service-item">
-                   <div class="service-img">
-                       <img src="{{ asset('/') }}frontend-assets/images/developers_thumbnail.jpg" class="img-fluid rounded-top w-100" alt="Image" style="height: 180px;">
-                   </div>
-                   <div class="rounded-bottom p-4">
-                       <a href="/realistic" class="h4 d-inline-block mb-4">Realistic Business</a>
-                       <p class="mb-4">Realistic Business is a distinctive farm dedicated to...
-                       </p>
-                       <a href="/realistic" class="btn btn-primary rounded-pill py-2 px-4">Learn More</a>
-                   </div>
-               </div>
-           </div>
-           
-           <!-- <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.6s">
-               <div class="service-item">
-                   <div class="service-img">
-                       <img src="{{ asset('/') }}frontend-assets/images/farm_3.png" class="img-fluid rounded-top w-100" alt="Image" style="height: 215px;">
-                   </div>
-                   <div class="rounded-bottom p-4">
-                       <a href="#" class="h4 d-inline-block mb-4">M.A Dairy and Poultry Farm</a>
-                       <p class="mb-4">M.A Dairy and Poultry Farm is a distinctive farm dedicated to producing high-quality eggs while embracing the charm...
-                       </p>
-                       <a class="btn btn-primary rounded-pill py-2 px-4" href="/farm">Learn More</a>
-                   </div>
-               </div>
-           </div> -->
-       </div>
-   </div>
-</div>
-</div>
-
-<!-- Features End -->
-
-
   <!-- Service Start -->
   <div class="container-fluid feature pb-5 mt-5">
     <div class="container-fluid feature pb-5">
-        <div class="container pb-5">
-            <div class=" mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" >
+      <div class="container pb-5">
+        <div class=" mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s">
 
-                <h3 class="text-primary text-center">Explore Our Services</h3>
-                <h1 class="text-center mb-4">Transforming Business Through Innovation and Digital Solutions.</h1>
-                <p class="mb-0 text-left">
-                    Need Standard Ltd. is transforming industries through innovative digital solutions in export-import,
-                    e-commerce, software development, and agriculture. The company drives growth and sustainability,
-                    empowering businesses to thrive in a fast-paced digital world and global markets.
-                </p>
-            </div>
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="feature-item p-4">
-                        <div class="feature-icon icon-background p-4 mb-4">
-                            <!-- <i class="fa-light fa-handshake"></i> -->
-                            <i class="fas fa-truck-loading fa-4x text-primary"></i>
-                            <!-- <i class="fa-solid fa-box-open fa-4x text-primary"></i> -->
-                            <!-- <i class="fa-solid fa-truck-plane fa-4x text-primary"></i> -->
-                            <!-- <i class="fa-solid fa-map-location-dot fa-4x text-primary"></i> -->
-                        </div>
-                        <h4>Export-Import</h4>
-                        <p class="mb-4">
-                            M. A Trade Corporation excels in global export-import, logistics, and compliant trade solutions.
-                        </p>
-                         <a href="/trade" class="btn btn-primary rounded-pill py-2 px-4">Learn More</a>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.4s">
-                    <div class="feature-item p-4">
-                        <div class="feature-icon icon-background p-4 mb-4">
-                            <i class="fas fa-shopping-cart fa-4x text-primary"></i>
-                        </div>
-                        <h4>E-commerce</h4>
-                        <p class="mb-4">Ecom NSL offers high-quality skincare with exceptional customer service & global sourcing.
-                        </p>
-                       <a href="/ecom-nsl" class="btn btn-primary rounded-pill py-2 px-4">Learn More</a>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.6s">
-                    <div class="feature-item p-4">
-                        <div class="feature-icon icon-background p-4 mb-4">
-                            <!-- <i class="fa-light fa-gear fa-4x text-primary"></i> -->
-                            <!-- <i class="fa-light fa-gear fa-4x text-primary"></i> -->
-                            <!-- <i class="fa-light fa-tachograph-digital"></i> -->
-                            <i class="fas fa-digital-tachograph fa-4x text-primary"></i>
-                            <!-- <i class="fas fa-database fa-4x text-primary"></i> -->
-                            <!-- <i class="fas fa-file-alt fa-4x text-primary"></i> -->
-                        </div>
-                        <h4>Software</h4>
-                        <p class="mb-4">
-                            Shohoz Soft provides affordable IT solutions for e-commerce and startups.
-                        </p>
-                         <a href="/soft" class="btn btn-primary rounded-pill py-2 px-4">Learn More</a>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.8s">
-                    <div class="feature-item p-4">
-                        <div class="feature-icon icon-background p-4 mb-4">
-                            <!-- <i class="fa-light fa-shop fa-4x text-primary"></i> -->
-                            <i class="fas fa-store fa-4x text-primary"></i>
-                            <!-- <i class="fa-light fa-money-bill-trend-up fa-4x text-primary"></i> -->
-                            <!-- <i class="fas fa-hand-holding-usd fa-4x text-primary"></i> -->
-                        </div>
-                        <h4>Super Shop</h4>
-                        <p class="mb-4">
-                            Shohoz Sodai offers convenient online grocery shopping with quality organic products.
-                        </p>
-                        <a href="/sodai" class="btn btn-primary rounded-pill py-2 px-4">Learn More</a>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.8s">
-                    <div class="feature-item p-4">
-                        <div class="feature-icon icon-background p-4 mb-4">
-                            <i class="fas fa-shipping-fast fa-4x text-primary"></i>
-                        </div>
-                        <h4>Courier</h4>
-                        <p class="mb-4">
-                            Needx Courier offers reliable, efficient courier and logistics services locally and internationally.
-                        </p>
-                        <a href="/needx" class="btn btn-primary rounded-pill py-2 px-4">Learn More</a>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.8s">
-                    <div class="feature-item p-4">
-                        <div class="feature-icon icon-background p-4 mb-4">
-                            <i class="fas fa-laptop-house fa-4x text-primary"></i>
-                            <!-- <i class="fas fa-wheat-awn fa-4x text-primary"></i> -->
-                        </div>
-                        <h4>Dairy and Poultry Farm</h4>
-                        <p class="mb-4">
-                            M.A Dairy and Poultry Farm blends sustainable farming with cultural heritage experiences.
-                        </p>
-                        <a href="/farm" class="btn btn-primary rounded-pill py-2 px-4">Learn More</a>
-                    </div>
-                </div>
-            </div>
+          <h3 class="text-primary text-center">Explore Our Services</h3>
+          <h1 class="text-center mb-4">Transforming Business Through Innovation and Digital Solutions.</h1>
+          <p class="mb-0 text-left font-14">
+            Need Standard Ltd. is transforming industries through innovative digital solutions in export-import,
+            e-commerce, software development, and agriculture. The company drives growth and sustainability,
+            empowering businesses to thrive in a fast-paced digital world and global markets.
+          </p>
         </div>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="feature-item p-4">
+              <div class="feature-icon icon-background p-4 mb-4">
+                <!-- <i class="fa-light fa-handshake"></i> -->
+                <i class="fas fa-truck-loading fa-4x text-primary"></i>
+                <!-- <i class="fa-solid fa-box-open fa-4x text-primary"></i> -->
+                <!-- <i class="fa-solid fa-truck-plane fa-4x text-primary"></i> -->
+                <!-- <i class="fa-solid fa-map-location-dot fa-4x text-primary"></i> -->
+              </div>
+              <h4>Export-Import</h4>
+              <p class="mb-4 font-14">
+                M. A Trade Corporation excels in global export-import, logistics, and compliant trade
+                solutions.
+              </p>
+              <a href="{{ route('trade') }}" class="btn btn-primary rounded-pill py-2 px-4">Learn More</a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.4s">
+            <div class="feature-item p-4">
+              <div class="feature-icon icon-background p-4 mb-4">
+                <i class="fas fa-shopping-cart fa-4x text-primary"></i>
+              </div>
+              <h4>E-commerce</h4>
+              <p class="mb-4 font-14">Ecom NSL offers high-quality skincare with exceptional customer service
+                & global sourcing.
+              </p>
+              <a href="{{ route('ecom-nsl') }}" class="btn btn-primary rounded-pill py-2 px-4">Learn More</a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.6s">
+            <div class="feature-item p-4">
+              <div class="feature-icon icon-background p-4 mb-4">
+                <!-- <i class="fa-light fa-gear fa-4x text-primary"></i> -->
+                <!-- <i class="fa-light fa-gear fa-4x text-primary"></i> -->
+                <!-- <i class="fa-light fa-tachograph-digital"></i> -->
+                <i class="fas fa-digital-tachograph fa-4x text-primary"></i>
+                <!-- <i class="fas fa-database fa-4x text-primary"></i> -->
+                <!-- <i class="fas fa-file-alt fa-4x text-primary"></i> -->
+              </div>
+              <h4>Software</h4>
+              <p class="mb-4 font-14">
+                Shohoz Soft provides affordable IT solutions for e-commerce and startups.
+              </p>
+              <a href="{{ route('shohoz-soft') }}" class="btn btn-primary rounded-pill py-2 px-4">Learn
+                More</a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.8s">
+            <div class="feature-item p-4">
+              <div class="feature-icon icon-background p-4 mb-4">
+                <!-- <i class="fa-light fa-shop fa-4x text-primary"></i> -->
+                <i class="fas fa-store fa-4x text-primary"></i>
+                <!-- <i class="fa-light fa-money-bill-trend-up fa-4x text-primary"></i> -->
+                <!-- <i class="fas fa-hand-holding-usd fa-4x text-primary"></i> -->
+              </div>
+              <h4>Super Shop</h4>
+              <p class="mb-4 font-14">
+                Shohoz Sodai offers convenient online grocery shopping with quality organic products.
+              </p>
+              <a href="{{ route('shodai') }}" class="btn btn-primary rounded-pill py-2 px-4">Learn More</a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.8s">
+            <div class="feature-item p-4">
+              <div class="feature-icon icon-background p-4 mb-4">
+                <i class="fas fa-shipping-fast fa-4x text-primary"></i>
+              </div>
+              <h4>Courier</h4>
+              <p class="mb-4 font-14">
+                Needx Courier offers reliable, efficient courier and logistics services locally and
+                internationally.
+              </p>
+              <a href="{{ route('needx') }}" class="btn btn-primary rounded-pill py-2 px-4">Learn More</a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.8s">
+            <div class="feature-item p-4">
+              <div class="feature-icon icon-background p-4 mb-4">
+                <i class="fas fa-laptop-house fa-4x text-primary"></i>
+                <!-- <i class="fas fa-wheat-awn fa-4x text-primary"></i> -->
+              </div>
+              <h4>Dairy and Poultry Farm</h4>
+              <p class="mb-4 font-14">
+                M.A Dairy and Poultry Farm blends sustainable farming with cultural heritage experiences.
+              </p>
+              <a href="{{ route('farm') }}" class="btn btn-primary rounded-pill py-2 px-4">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-</div>
+  </div>
+  <!-- Service End -->
 
-<!-- Service End -->
+  <!-- Features Start -->
+  <div class="container-fluid service pb-5 py-5">
+    <div class="container-fluid service pb-5">
+      <div class="container pb-5">
+        <div class="mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s">
+          <h4 class="text-center text-primary">Our Core Features</h4>
+          <h1 class="text-center mb-4">Innovating to Meet Your Needs</h1>
+          <p class="mb-0 text-left font-14">
+            Explore our diverse services, designed to meet your unique needs with innovative, personalized solutions.
+            From seamless e-commerce experiences and advanced software development to reliable export-import
+            services and fresh agricultural products, Need Standard Ltd. is committed to quality, efficiency,
+            and customer satisfaction, redefining industry standards and driving sustainable growth globally.
+          </p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="service-item">
+              <div class="service-img">
+                <img src="{{ asset('/') }}frontend-assets/images/ma.png" class="img-fluid rounded-top w-100" alt="Image"
+                  style="height: 200px;">
+              </div>
+              <div class="rounded-bottom p-4">
+                <a href="/trade" class="h4 d-inline-block mb-4">M.A Trade Corporation</a>
+                <p class="mb-4">M.A Trade Corporation is a leading export and...
+                </p>
+                <a href="/trade" class="btn btn-primary rounded-pill py-2 px-4">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.4s">
+            <div class="service-item">
+              <div class="service-img">
+                <img src="{{ asset('/') }}frontend-assets/images/ecom-nsl.jpg" class="img-fluid rounded-top w-100"
+                  alt="Image">
+              </div>
+              <div class="rounded-bottom p-4">
+                <a href="/ecom-nsl" class="h4 d-inline-block mb-4">Ecom NSL</a>
+                <p class="mb-4 font-14">Ecom NSL is a leading e-commerce platform specializing...
+                </p>
+                <a href="/ecom-nsl" class="btn btn-primary rounded-pill py-2 px-4">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.6s">
+            <div class="service-item">
+              <div class="service-img">
+                <img src="{{ asset('/') }}frontend-assets/images/ai-1.png" class="img-fluid rounded-top w-100"
+                  alt="Image">
+              </div>
+              <div class="rounded-bottom p-4">
+                <a href="/soft" class="h4 d-inline-block mb-4">Shohoz Soft</a>
+                <p class="mb-4 font-14">Shohoz Soft is a promising new IT firm dedicated to providing..
+                </p>
+                <a href="/soft" class="btn btn-primary rounded-pill py-2 px-4">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="service-item">
+              <div class="service-img">
+                <img src="{{ asset('/') }}frontend-assets/images/sodai-1.png" class="img-fluid rounded-top w-100"
+                  alt="Image">
+              </div>
+              <div class="rounded-bottom p-4">
+                <a href="/sodai" class="h4 d-inline-block mb-4">Shohoz Sodai</a>
+                <p class="mb-4 font-14">ShohozSodai is an innovative online-based grocery store..
+                </p>
+                <a href="/sodai" class="btn btn-primary rounded-pill py-2 px-4">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.4s">
+            <div class="service-item">
+              <div class="service-img">
+                <img src="{{ asset('/') }}frontend-assets/images/needx.png" class="img-fluid rounded-top w-100"
+                  alt="Image">
+              </div>
+              <div class="rounded-bottom p-4">
+                <a href="/needx" class="h4 d-inline-block mb-4">Needx Courier</a>
+                <p class="mb-4 font-14">Needx Courier is a dynamic courier and logistics company ...
+                </p>
+                <a href="/needx" class="btn btn-primary rounded-pill py-2 px-4">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.6s">
+            <div class="service-item">
+              <div class="service-img">
+                <img src="{{ asset('/') }}frontend-assets/images/dairy-firm-thumbnail.png"
+                  class="img-fluid rounded-top w-100" alt="Image">
+              </div>
+              <div class="rounded-bottom p-4">
+                <a href="/farm" class="h4 d-inline-block mb-4">Need Agro Complex</a>
+                <p class="mb-4 font-14">Need Agro Complex is a distinctive farm dedicated to...
+                </p>
+                <a href="/farm" class="btn btn-primary rounded-pill py-2 px-4">Learn More</a>
+              </div>
+            </div>
+          </div>
 
-<!-- FAQs Start -->
-<div class="container-fluid faq-section py-5">
-  <div class="container-fluid faq-section pb-5">
- <div class="container pb-5 overflow-hidden">
-   <div class=" mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" >
-     <h4 class="text-center text-primary">FAQs</h4>
-     <h1 class="text-center display-5 mb-4">Frequently Asked Questions</h1>
-     <p class="mb-0 text-left">
-       These are the most frequently asked questions that companies commonly inquire about. We have provided answers
-       to address these general queries. Should you require any further assistance, please do not hesitate to
-       contact us at your convenience.
-     </p>
-   </div>
-   <div class="row g-5 align-items-center">
-     <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2s">
-       <div class="accordion accordion-flush bg-light rounded p-5" id="accordionFlushSection">
-         <div class="accordion-item rounded-top">
-           <h2 class="accordion-header" id="flush-headingOne">
-             <button class="accordion-button collapsed bg-red rounded-top" type="button" data-bs-toggle="collapse"
-               data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-               What industries does Need Standard Ltd. operate in?
-             </button>
-           </h2>
-           <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
-             data-bs-parent="#accordionFlushSection">
-             <div class="accordion-body">
-               Need Standard Ltd. operates in the several industries, including export-import, e-commerce,agriculture
-               software development, & agriculture,
-               with plans to expand into courier services and super shops.
-             </div>
-           </div>
-         </div>
-         <div class="accordion-item">
-           <h2 class="accordion-header" id="flush-headingTwo">
-             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-               data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-               What products can customers find on Need Standard Ltd.'s e-commerce platform?
-             </button>
-           </h2>
-           <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
-             data-bs-parent="#accordionFlushSection">
-             <div class="accordion-body">
-               Need Standard Ltd. facilitates international trade by sourcing high-quality products and delivering
-               them efficiently to global markets, ensuring adherence to global trade standards.</div>
-           </div>
-         </div>
-         <div class="accordion-item">
-           <h2 class="accordion-header" id="flush-headingThree">
-             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-               data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-               What products can customers find on Need Standard Ltd.'s e-commerce platform?
-             </button>
-           </h2>
-           <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
-             data-bs-parent="#accordionFlushSection">
-             <div class="accordion-body">
-               Customers can find a wide range of products, including beauty & skincare items, electronics, household
-               essentials,
-               & more, all at competitive prices with fast delivery.
-             </div>
-           </div>
-         </div>
-         <div class="accordion-item">
-           <h2 class="accordion-header" id="flush-headingFour">
-             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-               data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-               What types of software does Need Standard Ltd. develop?
-             </button>
-           </h2>
-           <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
-             data-bs-parent="#accordionFlushSection">
-             <div class="accordion-body">
-               Need Standard Ltd. expertly specializes in developing enterprise software, mobile applications and
-               cloud systems tailored to the
-               needs of modern businesses, focusing on innovation and the customer needs.
-             </div>
-           </div>
-         </div>
-         <div class="accordion-item">
-           <h2 class="accordion-header" id="flush-headingFive">
-             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-               data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-               How does Need Standard Ltd. ensure customer satisfaction in all its sectors?
-             </button>
-           </h2>
-           <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
-             data-bs-parent="#accordionFlushSection">
-             <div class="accordion-body">
-               Need Standard Ltd. prioritizes customer satisfaction by offering high-quality products, reliable
-               services, and constant
-               innovation to meet customer needs across various sectors.
-             </div>
-           </div>
-         </div>
-         <div class="accordion-item rounded-bottom">
-           <h2 class="accordion-header" id="flush-headingSix">
-             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-               data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
-               What steps does Need Standard Ltd. take to stay ahead of industry trends?
-             </button>
-           </h2>
-           <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix"
-             data-bs-parent="#accordionFlushSection">
-             <div class="accordion-body">
-               Need Standard Ltd. reliably stays ahead by constantly investing in innovation, exploring new market
-               opportunities, and aligning its
-               services with the latest industry standards and customer demands.
-             </div>
-           </div>
-         </div>
-       </div>
-     </div>
-     <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.2s">
-       <div class="bg-primary rounded">
-         <img src="{{ asset('/') }}frontend-assets/images/question.png" class="img-fluid w-100 rounded" alt="">
-       </div>
-     </div>
-   </div>
- </div>
-</div>
-</div>
+          <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.6s">
+            <div class="service-item">
+              <div class="service-img">
+                <img src="{{ asset('/') }}frontend-assets/images/developers_thumbnail.jpg"
+                  class="img-fluid rounded-top w-100" alt="Image">
+              </div>
+              <div class="rounded-bottom p-4">
+                <a href="/realistic" class="h4 d-inline-block mb-4">Realistic Business</a>
+                <p class="mb-4 font-14">Realistic Business is a distinctive farm dedicated to...
+                </p>
+                <a href="/realistic" class="btn btn-primary rounded-pill py-2 px-4">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Features End -->
 
-<!-- FAQs End -->
+  <!-- FAQs Start -->
+  <div class="container-fluid faq-section py-5">
+    <div class="container-fluid faq-section pb-5">
+      <div class="container pb-5 overflow-hidden">
+        <div class=" mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s">
+          <h4 class="text-center text-primary">FAQs</h4>
+          <h1 class="text-center display-5 mb-4">Frequently Asked Questions</h1>
+          <p class="mb-0 text-left font-14">
+            These are the most frequently asked questions that companies commonly inquire about. We have provided
+            answers
+            to address these general queries. Should you require any further assistance, please do not hesitate to
+            contact us at your convenience.
+          </p>
+        </div>
+        <div class="row g-5 align-items-center">
+          <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2s">
+            <div class="accordion accordion-flush bg-light rounded p-5" id="accordionFlushSection">
+              <div class="accordion-item rounded-top">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button class="accordion-button collapsed bg-red rounded-top" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    What industries does Need Standard Ltd. operate in?
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                  data-bs-parent="#accordionFlushSection">
+                  <div class="accordion-body font-14">
+                    Need Standard Ltd. operates in the several industries, including export-import,
+                    e-commerce,agriculture
+                    software development, & agriculture,
+                    with plans to expand into courier services and super shops.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    What products can customers find on Need Standard Ltd.'s e-commerce platform?
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                  data-bs-parent="#accordionFlushSection">
+                  <div class="accordion-body font-14">
+                    Need Standard Ltd. facilitates international trade by sourcing high-quality products and delivering
+                    them efficiently to global markets, ensuring adherence to global trade standards.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    What products can customers find on Need Standard Ltd.'s e-commerce platform?
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                  data-bs-parent="#accordionFlushSection">
+                  <div class="accordion-body font-14">
+                    Customers can find a wide range of products, including beauty & skincare items, electronics,
+                    household
+                    essentials,
+                    & more, all at competitive prices with fast delivery.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                    What types of software does Need Standard Ltd. develop?
+                  </button>
+                </h2>
+                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                  data-bs-parent="#accordionFlushSection">
+                  <div class="accordion-body font-14">
+                    Need Standard Ltd. expertly specializes in developing enterprise software, mobile applications and
+                    cloud systems tailored to the
+                    needs of modern businesses, focusing on innovation and the customer needs.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingFive">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                    How does Need Standard Ltd. ensure customer satisfaction in all its sectors?
+                  </button>
+                </h2>
+                <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+                  data-bs-parent="#accordionFlushSection">
+                  <div class="accordion-body font-14">
+                    Need Standard Ltd. prioritizes customer satisfaction by offering high-quality products, reliable
+                    services, and constant
+                    innovation to meet customer needs across various sectors.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item rounded-bottom">
+                <h2 class="accordion-header" id="flush-headingSix">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                    What steps does Need Standard Ltd. take to stay ahead of industry trends?
+                  </button>
+                </h2>
+                <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix"
+                  data-bs-parent="#accordionFlushSection">
+                  <div class="accordion-body font-14">
+                    Need Standard Ltd. reliably stays ahead by constantly investing in innovation, exploring new market
+                    opportunities, and aligning its
+                    services with the latest industry standards and customer demands.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.2s">
+            <div class="bg-primary rounded">
+              <img src="{{ asset('/') }}frontend-assets/images/question.png" class="img-fluid w-100 rounded" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- FAQs End -->
 
-<!-- Team Start -->
-<div class="container-fluid team pb-5 py-5">
-  <div class="container-fluid team pb-5">
-  <div class="container pb-5">
-      <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+  <!-- Team Start -->
+  <div class="container-fluid team pb-5 py-5">
+    <div class="container-fluid team pb-5">
+      <div class="container pb-5">
+        <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
           <h4 class="text-primary">Meet the Visionaries</h4>
           <h1 class="display-5 mb-4">Our Expert Advisers and Key Contributors</h1>
           <p class="mb-0">Our trusted advisers play a pivotal role in our success, offering valuable insights,
-              strategic guidance, and expertise. Their leadership drives our growth and fuels innovation, ensuring
-              sustainable development and market leadership.
+            strategic guidance, and expertise. Their leadership drives our growth and fuels innovation, ensuring
+            sustainable development and market leadership.
           </p>
-      </div>
-      <div class="row g-4 justify-content-center">
+        </div>
+        <div class="row g-4 justify-content-center">
           <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
-              <div class="team-item">
-                  <div class="team-img">
-                      <img src="{{ asset('/') }}frontend-assets/images/md_sir.png" class="img-fluid" alt="">
-                  </div>
-                  <div class="team-title">
-                      <h4 class="mb-0">Md. Jakaria Hossen</h4>
-                      <p class="mb-0">Chief Executive Officer (CEO)</p>
-                  </div>
+            <div class="team-item">
+              <div class="team-img">
+                <img src="{{ asset('/') }}frontend-assets/images/md_sir.png" class="img-fluid" alt="">
               </div>
+              <div class="team-title">
+                <h4 class="mb-0">Md. Jakaria Hossen</h4>
+                <p class="mb-0">Chief Executive Officer (CEO)</p>
+              </div>
+            </div>
           </div>
           <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
-              <div class="team-item">
-                  <div class="team-img">
-                      <img src="{{ asset('/') }}frontend-assets/images/bappy.jpg" class="img-fluid" alt="">
-                  </div>
-                  <div class="team-title">
-                      <h4 class="mb-0">Md. Nuruddin</h4>
-                      <p class="mb-0">Chief Operating Officer (COO)</p>
-                  </div>
+            <div class="team-item">
+              <div class="team-img">
+                <img src="{{ asset('/') }}frontend-assets/images/bappy.jpg" class="img-fluid" alt="">
               </div>
+              <div class="team-title">
+                <h4 class="mb-0">Md. Nuruddin</h4>
+                <p class="mb-0">Chief Operating Officer (COO)</p>
+              </div>
+            </div>
           </div>
           <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
-              <div class="team-item">
-                  <div class="team-img">
-                      <img src="{{ asset('/') }}frontend-assets/images/uncle-pp.png" class="img-fluid" alt="">
-                  </div>
-                  <div class="team-title">
-                      <h4 class="mb-0">Md. Mohammad Ferdous</h4>
-                      <p class="mb-0">General Manager</p>
-                  </div>
+            <div class="team-item">
+              <div class="team-img">
+                <img src="{{ asset('/') }}frontend-assets/images/uncle-pp.png" class="img-fluid" alt="">
               </div>
+              <div class="team-title">
+                <h4 class="mb-0">Md. Mohammad Ferdous</h4>
+                <p class="mb-0">General Manager</p>
+              </div>
+            </div>
           </div>
+        </div>
       </div>
+    </div>
   </div>
-</div>
-</div>
 
-<!-- Team End -->
+  <!-- Team End -->
 
   <!-- Contact Start -->
   <div class="container-fluid contact py-5">
     <div class="container py-5">
-        <div class="row g-5">
-            <div class="col-xl-6">
-                <div class="wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="bg-light rounded p-5 mb-5">
-                        <h4 class="text-primary mb-4">Get in Touch</h4>
-                        <div class="row g-4">
-                            <div class="col-md-6">
-                                <div class="contact-add-item">
-                                    <div class="contact-icon text-primary mb-4">
-                                        <i class="fas fa-map-marker-alt fa-2x"></i>
-                                    </div>
-                                    <div>
-                                        <h4>Address</h4>
-                                        <p class="mb-0">Rahmania International Complex 28/1/C Toyenbee Circular Road, Level#12, Room#12, Motijheel C/A Dhaka-1000</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="contact-add-item">
-                                    <div class="contact-icon text-primary mb-4">
-                                        <i class="fas fa-envelope fa-2x"></i>
-                                    </div>
-                                    <div>
-                                        <h4>Mail Us</h4>
-                                        <p class="mb-0">ecomnsl@gmail.com</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="contact-add-item">
-                                    <div class="contact-icon text-primary mb-4">
-                                        <i class="fa fa-phone-alt fa-2x"></i>
-                                    </div>
-                                    <div>
-                                        <h4>Telephone</h4>
-                                        <p class="mb-0">+88 01999-525008</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="contact-add-item">
-                                    <div class="contact-icon text-primary mb-4">
-                                        <i class="fab fa-firefox-browser fa-2x"></i>
-                                    </div>
-                                    <div>
-                                        <h4>Yoursite@ex.com</h4>
-                                        <p class="mb-0">(+012) 3456 7890</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+      <div class="row g-5">
+        <div class="col-xl-6">
+          <div class="wow fadeInUp" data-wow-delay="0.2s">
+            <div class="bg-light rounded p-5 mb-5">
+              <h4 class="text-primary mb-4">Get in Touch</h4>
+              <div class="row g-4">
+                <div class="col-md-6">
+                  <div class="contact-add-item">
+                    <div class="contact-icon text-primary mb-4">
+                      <i class="fas fa-map-marker-alt fa-2x"></i>
                     </div>
-                    <div class="bg-light p-5 rounded h-100 wow fadeInUp" data-wow-delay="0.2s">
-                        <h4 class="text-primary">Send Your Message</h4>
-                        <form>
-                            <div class="row g-4">
-                                <div class="col-lg-12 col-xl-6">
-                                    <div class="form-floating">
-                                        <input type="text" class="form-control border-0" id="name"
-                                            placeholder="Your Name">
-                                        <label for="name">Your Name</label>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12 col-xl-6">
-                                    <div class="form-floating">
-                                        <input type="email" class="form-control border-0" id="email"
-                                            placeholder="Your Email">
-                                        <label for="email">Your Email</label>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12 col-xl-6">
-                                    <div class="form-floating">
-                                        <input type="phone" class="form-control border-0" id="phone"
-                                            placeholder="Phone">
-                                        <label for="phone">Your Phone</label>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12 col-xl-6">
-                                    <div class="form-floating">
-                                        <input type="text" class="form-control border-0" id="project"
-                                            placeholder="Project">
-                                        <label for="project">Your Project</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-floating">
-                                        <input type="text" class="form-control border-0" id="subject"
-                                            placeholder="Subject">
-                                        <label for="subject">Subject</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-floating">
-                                        <textarea class="form-control border-0" placeholder="Leave a message here"
-                                            id="message" style="height: 160px"></textarea>
-                                        <label for="message">Message</label>
-                                    </div>
-
-                                </div>
-                                <div class="col-12">
-                                    <button class="btn btn-primary w-100 py-3">Send Message</button>
-                                </div>
-                            </div>
-                        </form>
+                    <div>
+                      <h4>Address</h4>
+                      <p class="mb-0">Rahmania International Complex 28/1/C Toyenbee Circular Road, Level#12, Room#12,
+                        Motijheel C/A Dhaka-1000</p>
                     </div>
+                  </div>
                 </div>
-            </div>
-            <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
-              <div class="rounded h-100">
-                  <iframe class="rounded h-100 w-100" style="height: 400px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387191.33750346623!2d-73.97968099999999!3d40.6974881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1694259649153!5m2!1sen!2sbd" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="col-md-6">
+                  <div class="contact-add-item">
+                    <div class="contact-icon text-primary mb-4">
+                      <i class="fas fa-envelope fa-2x"></i>
+                    </div>
+                    <div>
+                      <h4>Mail Us</h4>
+                      <p class="mb-0">ecomnsl@gmail.com</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="contact-add-item">
+                    <div class="contact-icon text-primary mb-4">
+                      <i class="fa fa-phone-alt fa-2x"></i>
+                    </div>
+                    <div>
+                      <h4>Telephone</h4>
+                      <p class="mb-0">+88 01999-525008</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="contact-add-item">
+                    <div class="contact-icon text-primary mb-4">
+                      <i class="fab fa-firefox-browser fa-2x"></i>
+                    </div>
+                    <div>
+                      <h4>Yoursite@ex.com</h4>
+                      <p class="mb-0">(+012) 3456 7890</p>
+                    </div>
+                  </div>
+                </div>
               </div>
+            </div>
+            <div class="bg-light p-5 rounded h-100 wow fadeInUp" data-wow-delay="0.2s">
+              <h4 class="text-primary">Send Your Message</h4>
+              <form>
+                <div class="row g-4">
+                  <div class="col-lg-12 col-xl-6">
+                    <div class="form-floating">
+                      <input type="text" class="form-control border-0" id="name" placeholder="Your Name">
+                      <label for="name">Your Name</label>
+                    </div>
+                  </div>
+                  <div class="col-lg-12 col-xl-6">
+                    <div class="form-floating">
+                      <input type="email" class="form-control border-0" id="email" placeholder="Your Email">
+                      <label for="email">Your Email</label>
+                    </div>
+                  </div>
+                  <div class="col-lg-12 col-xl-6">
+                    <div class="form-floating">
+                      <input type="phone" class="form-control border-0" id="phone" placeholder="Phone">
+                      <label for="phone">Your Phone</label>
+                    </div>
+                  </div>
+                  <div class="col-lg-12 col-xl-6">
+                    <div class="form-floating">
+                      <input type="text" class="form-control border-0" id="project" placeholder="Project">
+                      <label for="project">Your Project</label>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-floating">
+                      <input type="text" class="form-control border-0" id="subject" placeholder="Subject">
+                      <label for="subject">Subject</label>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-floating">
+                      <textarea class="form-control border-0" placeholder="Leave a message here" id="message"
+                        style="height: 160px"></textarea>
+                      <label for="message">Message</label>
+                    </div>
+
+                  </div>
+                  <div class="col-12">
+                    <button class="btn btn-primary w-100 py-3">Send Message</button>
+                  </div>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
+        <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
+          <div class="rounded h-100">
+              <iframe class="rounded h-100 w-100" style="height: 400px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.4517168095917!2d90.41285747592715!3d23.731265989509534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b85916ce4e85%3A0xa0adb5fd6f443174!2sRahmania%20International%20Complex!5e0!3m2!1sen!2sbd!4v1734416969344!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
     </div>
-</div>
-<!-- Contact End -->
+  </div>
+  <!-- Contact End -->
 
 </main>
 @endsection
