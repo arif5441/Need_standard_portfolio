@@ -1,6 +1,13 @@
 (function ($) {
     "use strict";
 
+     // Scroll to bottom functionality
+     $('#find-location').click(function() {
+        $('html, body').animate({
+            scrollTop: $(document).height()
+        }, 1000); // Scroll speed is 1000ms
+    });
+
     // Spinner
     setTimeout(function () {
         if ($('#spinner').length > 0) {

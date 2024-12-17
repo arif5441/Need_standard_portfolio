@@ -3,9 +3,9 @@
     <div class="row gx-0 align-items-center  px-4" style="height: 45px;">
         <div class="col-lg-12 text-right text-lg-start text-top-right mb-2 mb-lg-0 text-left">
             <div class=" flex-wrap">
-                <a href="javascript:void(0)" class="text-muted small me-4" @click="scrollToBottom">
+                <a href="javascript:void(0)" class="text-muted small me-4" id="find-location">
                     <i class="fas fa-map-marker-alt text-primary me-2"></i>Find A Location
-                </a>
+                </a>                
                 <a href="tel:+88 01999-525008" class="text-muted small me-4"><i
                         class="fas fa-phone-alt text-primary me-2"></i>+88 01999-525008
                 </a>
@@ -57,12 +57,12 @@
                     <div class="dropdown-menu m-0">
                         <a href="{{ route('features') }}" class="dropdown-item">Our Features</a>
                         <a href="{{ route('needx') }}" class="dropdown-item">NeedX</a>
-                        <a href="{{ route('shodai') }}" class="dropdown-item">Sodai</a>
+                        <a href="{{ route('shodai') }}" class="dropdown-item">Shodai</a>
+                        <a href="{{ route('ecom-nsl') }}" class="dropdown-item">Ecom NSL</a>
                         <a href="{{ route('shohoz-soft') }}" class="dropdown-item">Shohoz Soft</a>
                         <a href="{{ route('trade') }}" class="dropdown-item">Trade</a>
                         <a href="{{ route('farm') }}" class="dropdown-item">Farm</a>
                         <a href="{{ route('team') }}" class="dropdown-item">Our Team</a>
-                        <a href="{{ route('ecom-nsl') }}" class="dropdown-item">Ecom NSL</a>
                         <a href="{{ route('faqs') }}" class="dropdown-item">FAQs</a>
                     </div>
                 </div>

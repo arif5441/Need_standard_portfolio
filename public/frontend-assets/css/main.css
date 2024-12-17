@@ -190,59 +190,59 @@
 /* background banner */
 .bg-breadcrumb.bg-img-about {
   background: linear-gradient(rgba(0, 0, 0, 0%), rgba(0, 0, 0, 0%)),
-    url("/images/about-us-banner.png");
+    url("/frontend-assets/images/about-us-banner.png");
 }
 .bg-breadcrumb.bg-img-services {
   background: linear-gradient(rgba(0, 0, 0, 0%), rgba(0, 0, 0, 0%)),
-    url("/images/services.png");
+    url("/frontend-assets/images/services.png");
 }
 .bg-breadcrumb.bg-img-blog {
   background: linear-gradient(rgba(0, 0, 0, 0%), rgba(0, 0, 0, 0%)),
-    url("/images/blog.png");
+    url("/frontend-assets/images/blog.png");
 }
 .bg-breadcrumb.bg-img-contact {
   background: linear-gradient(rgba(0, 0, 0, 0%), rgba(0, 0, 0, 0%)),
-    url("/images/contact-us-banner.png");
+    url("/frontend-assets/images/contact-us-banner.png");
 }
 .bg-breadcrumb.bg-img-trade {
   background: linear-gradient(rgba(0, 0, 0, 0%), rgba(0, 0, 0, 0%)),
-    url("/images/ma-trade-banner.png");
+    url("/frontend-assets/images/ma-trade-banner.png");
 }
 .bg-breadcrumb.bg-img-ecomnsl {
   background: linear-gradient(rgba(0, 0, 0, 0%), rgba(0, 0, 0, 0%)),
-    url("/images/ecom-nsl-web-banner.png");
+    url("/frontend-assets/images/ecom-nsl-web-banner.png");
 }
 .bg-breadcrumb.bg-img-soft {
   background: linear-gradient(rgba(0, 0, 0, 0%), rgba(0, 0, 0, 0%)),
-    url("/images/software.png");
+    url("/frontend-assets/images/software.png");
 }
 .bg-breadcrumb.bg-img-needx {
   background: linear-gradient(rgba(0, 0, 0, 0%), rgba(0, 0, 0, 0%)),
-    url("/images/courier-web-banner.png");
+    url("/frontend-assets/images/courier-web-banner.png");
 }
-.bg-breadcrumb.bg-img-sodai {
+.bg-breadcrumb.bg-img-shodai {
   background: linear-gradient(rgba(0, 0, 0, 0%), rgba(0, 0, 0, 0%)),
-    url("/images/super-shop-web.png");
+    url("/frontend-assets/images/super-shop-web.png");
 }
 .bg-breadcrumb.bg-img-farm {
   background: linear-gradient(rgba(0, 0, 0, 0%), rgba(0, 0, 0, 0%)),
-    url("/images/dairy-firm.png");
+    url("/frontend-assets/images/dairy-firm.png");
 }
 .bg-breadcrumb.bg-img-faq {
   background: linear-gradient(rgba(0, 0, 0, 0%), rgba(0, 0, 0, 0%)),
-    url("/images/faq-banner.png");
+    url("/frontend-assets/images/faq-banner.png");
 }
 .bg-breadcrumb.bg-img-features {
   background: linear-gradient(rgba(0, 0, 0, 0%), rgba(0, 0, 0, 0%)),
-    url("/images/features-banner.png");
+    url("/frontend-assets/images/features-banner.png");
 }
 .bg-breadcrumb.bg-img-team {
   background: linear-gradient(rgba(0, 0, 0, 0%), rgba(0, 0, 0, 0%)),
-    url("/images/Team-banner.png");
+    url("/frontend-assets/images/Team-banner.png");
 }
 .bg-breadcrumb.bg-img-realistic {
   background: linear-gradient(rgba(0, 0, 0, 0%), rgba(0, 0, 0, 0%)),
-    url("/images/developers-banner.jpg");
+    url("/frontend-assets/images/developers-banner.jpg");
 }
 /* background banner */
 .br-5 {
