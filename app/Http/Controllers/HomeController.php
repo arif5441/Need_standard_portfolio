@@ -46,6 +46,10 @@ class HomeController extends Controller
     {
         return view('frontend.farm.index');
     }
+    public function realistic()
+    {
+        return view('frontend.realistic.index');
+    }
     public function team()
     {
         return view('frontend.team.index');

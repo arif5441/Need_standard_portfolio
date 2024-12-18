@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AdminController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 
@@ -11,11 +12,17 @@ Route::get(uri: '/services', action: [HomeController::class, 'services'])->name(
 Route::get(uri: '/blog', action: [HomeController::class, 'blog'])->name('blog');
 Route::get(uri: '/features', action: [HomeController::class, 'features'])->name('features');
 Route::get('/needx', action: [HomeController::class, 'needx'])->name('needx');
-Route::get('/shodai', action: [HomeController::class, 'shodai'])->name('shodai');
+Route::get('/shodai', action: [HomeController::class, 'shodai'])->name(name: 'shodai');
 Route::get('/shohoz-soft', action: [HomeController::class, 'shohoz_soft'])->name('shohoz-soft');
 Route::get('/trade', action: [HomeController::class, 'trade'])->name('trade');
 Route::get('/farm', action: [HomeController::class, 'farm'])->name('farm');
+Route::get('/realistic', action: [HomeController::class, 'realistic'])->name('realistic');
 Route::get('/team', action: [HomeController::class, 'team'])->name('team');
 Route::get('/ecom-nsl', action: [HomeController::class, 'ecom_nsl'])->name('ecom-nsl');
 Route::get('/faqs', action: [HomeController::class, 'faqs'])->name('faqs');
 Route::get('/contact', action: [HomeController::class, 'contact'])->name('contact');
+
+
+//Routes for Client/ backend
+Route::get('/dashboard', action: [AdminController::class, 'dashboard'])->name(name: 'dashboard');
+Route::get('/login', action: [AdminController::class, 'login'])->name('login');

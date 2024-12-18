@@ -26,10 +26,11 @@
             <div class="col-md-6 col-lg-6 col-xl-4">
                 <div class="rounded h-100">
                     <!-- Map Embed -->
-                    <!-- <CommonMapEmbed :lat="23.731077700292044" :lng="90.41638526309474" height="500px" /> -->
+                    
 
-                    <iframe class="rounded h-100 w-100" :style="{ height: height }" :src="mapUrl" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    {{-- <iframe class="rounded h-100 w-100" :style="{ height: height }" :src="mapUrl" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe> --}}
+                        <iframe class="rounded h-100 w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.4517168095917!2d90.41285747592715!3d23.731265989509534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b85916ce4e85%3A0xa0adb5fd6f443174!2sRahmania%20International%20Complex!5e0!3m2!1sen!2sbd!4v1734416969344!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
 
